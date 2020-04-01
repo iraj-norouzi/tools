@@ -15,7 +15,7 @@ tempfile=`tempfile 2>/dev/null` || tempfile=/tmp/test$$
 
 $DIALOG --backtitle "$title" \
         --clear --title "$version" \
-        --menu "Please select the option :" 20 51 20 \
+        --menu "Please select the option : below option only work on the Centos 7" 20 51 20 \
         "1"  "Install Docker " \
         "2"  "TO DO" \
         "3"  "TO DO" \
